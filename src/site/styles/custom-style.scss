@@ -1,14 +1,22 @@
+// Import Geist font (replace with the actual font URL or local file path)
+@import "https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.1.0/600.min.css"; // Specify weight
+
 body {
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
+    ***/
+
+    // Set Geist as the default font
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+
+    // Additional custom styling can be added below
+    // background-color: white;
+    // .content {
     //   font-size: 14px;
-    //  }
-    //  h1 {
+    // }
+    // h1 {
     //   color: black;
-    //  }
-    font: 16px Geist, sans-serif;
+    // }
 }
